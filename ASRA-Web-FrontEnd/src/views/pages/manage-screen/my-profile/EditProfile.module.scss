@@ -1,0 +1,46 @@
+.edit-profile-screen {
+  padding: 20px;
+  .edit-profile-header {
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .edit-profile-text {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #666666;
+  }
+
+  .edit-profile-avatar-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 46px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  .edit-profile-avatar-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .edit-profile-avatar-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .edit-button {
+    margin-top: 32px;
+  }
+
+  .edit-profile-image-validate {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ababab;
+  }
+}

@@ -1,0 +1,74 @@
+.contract-component {
+    margin-top: 20px;
+    height: 255px;
+    width: 904px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+        // filter: brightness(110%);
+    }
+
+    .thumbnail-deposit-room-side {
+        padding: 14px;
+
+        .thumbnail-deposit-image {
+            border-radius: 8px;
+            height: 178px;
+            width: 168px;
+            object-fit: cover;
+        }
+    }
+
+    .contract-side {
+        margin-top: 20px;
+        margin-left: 18px;
+
+        .contract-address {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #666666;
+            margin-bottom: 0px;
+
+            .status {
+                margin-left: 3px;
+            }
+        }
+
+        .contract-utilities {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2px;
+            margin-top: 6px;
+        }
+
+        .contract-tilte {
+            font-style: normal;
+            margin-left: 2px;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: bold;
+        }
+
+        .contract-icon {
+            margin-right: 8px;
+            padding: 3px;
+        }
+    }
+}
+.pagination-contract-body {
+    .pagination-contract {
+        text-align: end;
+    }
+}
+.no-data {
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

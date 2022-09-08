@@ -1,0 +1,39 @@
+.edit-profile-screen {
+  .ant-form-item-label::after {
+    content: " ";
+  }
+
+  .ant-col-10 {
+    flex: 0 0 40.7%;
+    max-width: 40.7%;
+  }
+
+  .ant-input-number:hover {
+    border-color: #00bfb9;
+  }
+
+  .ant-input-number:focus,
+  .ant-input-number-focused {
+    border-color: #00bfb9;
+    box-shadow: 0 0 0 2px rgb(0 191 185 / 1%);
+    outline: none;
+  }
+
+  .ant-input-number {
+    width: 100%;
+    height: 44px;
+    line-height: 38px;
+    border-radius: 6px;
+  }
+
+  .error {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+    span {
+      font-size: 16px;
+      color: #ff4d4f;
+    }
+  }
+}

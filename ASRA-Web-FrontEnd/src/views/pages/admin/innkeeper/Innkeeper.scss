@@ -1,0 +1,13 @@
+.innkeeper-detail {
+  color: #1890ff;
+  cursor: pointer;
+
+  &:hover {
+    color: #40a9ff;
+    transition: 0.6 all;
+  }
+}
+
+.spin {
+  padding: 300px 0;
+}

@@ -1,0 +1,77 @@
+.content{
+    height: 100vh;
+    min-height: 800px;
+
+    .left_side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+
+    .right_side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .form_data{
+            padding: 0 120px 0;
+
+            .form_item{
+                margin-bottom: 20px;
+
+                .input_field{
+                    height: 52px;
+                    font-size: 14px;
+                }
+            }
+
+            .txt_forgot_pass{
+                display: flex;
+                justify-content: flex-end;
+                font-style: italic;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 20px;
+                color: #000000;
+            }
+
+
+            .divider{
+                margin: 24px 0;
+            }
+
+            .other_login_section{
+                display: flex;
+                justify-content: space-between;
+
+                :first-child{
+                    margin-left: -4px;
+                }
+
+                :last-child{
+                    margin: 0 -4px 2px 8px;
+                }
+            }
+
+            .btn_login{
+                margin-top: 40px;
+                width: 100%;
+                height: 52px;
+            }
+
+            .txt_not_registered{
+                margin-top: 20px;
+
+                a{
+                    font-weight: bold;
+                    color: #000000;
+                }
+            }
+        }
+
+        
+        
+    }
+}

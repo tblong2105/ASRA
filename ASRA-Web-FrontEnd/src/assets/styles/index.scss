@@ -1,0 +1,45 @@
+@import "~antd/dist/antd.css";
+@import "./header.scss";
+
+
+
+@font-face {
+  font-family: 'Nutito';
+  src: local('Nutito'), url(../fonts/Nunito/static/Nunito-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nutito-Bold';
+  src: local('Nutito-Bold'), url(../fonts/Nunito/static/Nunito-Bold.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Nutito-Italic';
+  src: local('Nutito-Italic'), url(../fonts/Nunito/static/Nunito-Italic.ttf) format('truetype');
+}
+
+.App {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: Nutito;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}

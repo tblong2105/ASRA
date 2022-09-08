@@ -1,0 +1,263 @@
+.contract_screen {
+  .contract_infomation_container {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 1px solid #00bfb9;
+    border-radius: 40px;
+    position: relative;
+
+    .form_data {
+      margin-top: 40px;
+      padding-bottom: 40px;
+
+      .checkboxCustom {
+        position: absolute;
+        right: 0px;
+      }
+    }
+
+    .col_left {
+      margin-right: 20px;
+    }
+
+    .col_right {
+      margin-left: 20px;
+    }
+
+    .unit-left {
+      position: absolute;
+      top: 35px;
+      right: 30px;
+      font-weight: 600;
+    }
+
+    .unit-right {
+      position: absolute;
+      top: 35px;
+      right: 10px;
+      font-weight: 600;
+    }
+
+    .title {
+      position: absolute;
+      top: -11px;
+      left: 48px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 16px;
+      color: #00bfb9;
+      background-color: #f6f6f6;
+      padding: 0 4px;
+    }
+
+    .input {
+      height: 40px !important;
+    }
+
+    .date_picker {
+      border-radius: 6px;
+    }
+  }
+  .form_buton {
+    display: flex;
+    align-items: end;
+    padding: 32px 60px 0px 60px;
+
+    .btn_cancel {
+      height: 52px;
+      width: 180px;
+      margin-right: 40px;
+      background-color: #bf0000;
+      color: #ffffff;
+    }
+
+    .btn_create_contract {
+      height: 52px;
+      width: 180px;
+    }
+  }
+}
+
+.inner {
+  position: relative;
+  margin: 0 60px 60px 60px;
+  padding: 50px 90px 40px 90px;
+  max-height: 800px;
+  border: 1px solid #00bfb9;
+  border-radius: 40px;
+
+  .title {
+    position: absolute;
+    top: -11px;
+    left: 48px;
+    padding: 0 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    color: #00bfb9;
+    background-color: #f6f6f6;
+  }
+
+  .image_list {
+    max-height: 600px;
+
+    .image-display {
+      padding-left: 62px;
+    }
+
+    .image_border {
+      padding: 8px;
+      margin-right: 8px;
+      width: 200px;
+      height: 200px;
+      border: 1px solid #d9d9d9;
+      border-radius: 2px;
+
+      .image_area {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: #333;
+
+        &:hover {
+          background-color: transparent;
+
+          &:before {
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: all 0.3s;
+            content: " ";
+          }
+
+          .eye_icon {
+            position: absolute;
+            top: 44%;
+            left: 35%;
+            color: rgba(244, 244, 244, 0.715);
+            font-size: x-large;
+            transition: all 0.3s;
+            z-index: 10000;
+            opacity: 1;
+
+            &:hover {
+              color: #fff;
+            }
+          }
+
+          .draff_icon {
+            position: absolute;
+            top: 44%;
+            right: 35%;
+            color: rgba(244, 244, 244, 0.715);
+            font-size: x-large;
+            transition: all 0.3s;
+            opacity: 1;
+            z-index: 10000;
+            &:hover {
+              color: #fff;
+            }
+          }
+        }
+
+        .eye_icon {
+          position: absolute;
+          top: 44%;
+          left: 35%;
+          color: rgba(244, 244, 244, 0.715);
+          font-size: x-large;
+          transition: all 0.3s;
+          opacity: 0;
+        }
+
+        .draff_icon {
+          position: absolute;
+          top: 44%;
+          right: 35%;
+          color: rgba(244, 244, 244, 0.715);
+          font-size: x-large;
+          transition: all 0.3s;
+          opacity: 0;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .progress {
+          position: absolute;
+          top: 41%;
+          left: 41%;
+
+          span {
+            display: none;
+          }
+        }
+
+        .sprin_icon {
+          padding: 38px 0;
+          font-size: 50px;
+          color: #1890ff;
+        }
+      }
+    }
+    .btn_upload {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      padding: 40px 0;
+      text-align: center;
+      vertical-align: top;
+      border: 1px dashed #d9d9d9;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: border-color 0.6s;
+
+      &:hover {
+        border-color: #1890ff;
+      }
+
+      .file_upload_input {
+        position: absolute;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        opacity: 0;
+        cursor: pointer;
+      }
+      .sprin_icon {
+        padding: 38px 0;
+        font-size: 50px;
+        color: #1890ff;
+      }
+
+      .inbox-icon {
+        color: #40a9ff;
+        font-size: 48px;
+      }
+
+      .upload-title {
+        margin: 0 0 4px;
+        color: #000000d9;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.error {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #ff4d4f;
+}

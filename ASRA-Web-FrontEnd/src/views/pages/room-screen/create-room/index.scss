@@ -1,0 +1,515 @@
+.create-room {
+  .information-row {
+    padding: 0 40px;
+
+    .ant-col-16 {
+      max-width: 100%;
+    }
+
+    .ant-input-number:hover {
+      border-color: #00bfb9;
+    }
+
+    .ant-input-number:focus,
+    .ant-input-number-focused {
+      border-color: #00bfb9;
+      box-shadow: 0 0 0 2px rgb(0 191 185 / 1%);
+      outline: none;
+    }
+
+    .input-number {
+      width: 100%;
+      height: 40px;
+      line-height: 38px;
+      border-radius: 6px;
+    }
+  }
+
+  .address-row {
+    padding: 0 40px;
+
+    .ant-col-16 {
+      max-width: 100%;
+    }
+  }
+
+  .ant-select-selector {
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .room-des-label {
+    margin: 8px 0 0 7px;
+
+    .ant-form-item-label::after {
+      content: "";
+    }
+  }
+
+  .ant-upload-list-item-actions {
+    button {
+      background: none !important;
+    }
+
+    .anticon-eye {
+      padding-top: 3px;
+    }
+  }
+
+  .ant-steps-item-container {
+    cursor: pointer;
+  }
+
+  .ant-select-dropdown-empty {
+    display: none;
+  }
+
+  .room_names {
+    .ant-select-selection-placeholder {
+      display: flex;
+    }
+  }
+
+  input[type="file"]::-webkit-file-upload-button {
+    /* chromes and blink button */
+    cursor: pointer;
+  }
+
+  .ant-alert-error {
+    width: 30%;
+  }
+
+  .process {
+    margin-top: 80px;
+    padding: 0 160px;
+  }
+  
+  .btn-action {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 56px;
+
+    .btn-reset {
+      padding-right: 20px;
+    }
+  }
+
+  .tab {
+    margin-top: 32px;
+
+    .infomation_container {
+      margin: 0 60px 60px 60px;
+      border: 1px solid #00bfb9;
+      border-radius: 40px;
+      position: relative;
+
+      .form_data {
+        margin-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .col_left {
+        margin-right: 20px;
+      }
+
+      .col_right {
+        margin-left: 20px;
+      }
+
+      .title {
+        position: absolute;
+        top: -11px;
+        left: 48px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 16px;
+        color: #00bfb9;
+        background-color: #f6f6f6;
+        padding: 0 4px;
+      }
+
+      .input {
+        height: 40px !important;
+      }
+
+      .input_number_of_rooms {
+        padding-right: 68px;
+      }
+
+      .input_rental_price {
+        padding-right: 84px;
+      }
+
+      .input_deposit {
+        padding-right: 48px;
+      }
+
+      .capacity {
+        padding-right: 110px;
+      }
+
+      .room_area {
+        padding-right: 32px;
+      }
+
+      .number_of_rooms {
+        display: flex;
+      }
+
+      .unit {
+        position: absolute;
+        top: 35px;
+        right: 10px;
+        font-weight: 600;
+      }
+
+      .unit_room {
+        right: 28px;
+      }
+
+      .room_description {
+        display: flex;
+      }
+
+      .room-name-label {
+        display: flex;
+        padding: 0 0 12px 4px;
+      }
+    }
+
+    .address_container {
+      margin: 0 60px 60px 60px;
+      border: 1px solid #00bfb9;
+      border-radius: 40px;
+      position: relative;
+
+      .form_data {
+        margin-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .col_left {
+        margin-right: 20px;
+      }
+
+      .col_right {
+        margin-left: 20px;
+      }
+
+      .title {
+        position: absolute;
+        top: -11px;
+        left: 48px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 16px;
+        color: #00bfb9;
+        background-color: #f6f6f6;
+        padding: 0 4px;
+      }
+
+      .input {
+        height: 40px !important;
+      }
+
+      .input_number_of_rooms {
+        padding-right: 68px;
+      }
+
+      .capacity {
+        padding-right: 110px;
+      }
+
+      .room_area {
+        padding-right: 32px;
+      }
+
+      .number_of_rooms {
+        display: flex;
+      }
+
+      .unit {
+        position: absolute;
+        top: 35px;
+        right: 10px;
+        font-weight: 600;
+      }
+
+      .unit_room {
+        right: 28px;
+      }
+    }
+  }
+
+  .utilities-tab {
+    .inner-utility {
+      position: relative;
+      margin: 0 60px 60px 60px;
+      padding: 50px 90px 40px 90px;
+      max-height: 800px;
+      border: 1px solid #00bfb9;
+      border-radius: 40px;
+
+      .title {
+        position: absolute;
+        top: -11px;
+        left: 48px;
+        padding: 0 4px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 16px;
+        color: #00bfb9;
+        background-color: #f6f6f6;
+      }
+
+      .image_list {
+        max-height: 600px;
+
+        .image-display {
+          padding-left: 62px;
+
+          .remove-icon {
+            position: absolute;
+            top: -8px;
+            right: 4px;
+            z-index: 1;
+            cursor: pointer;
+
+            span {
+              font-size: 24px;
+              background-color: #000;
+              color: #fff;
+              border-radius: 50%;
+
+              &:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+                transition: 0.6 all;
+              }
+            }
+          }
+        }
+
+        .image_border {
+          padding: 8px;
+          margin-right: 8px;
+          width: 200px;
+          height: 200px;
+          border: 1px solid #d9d9d9;
+          border-radius: 2px;
+
+          .progress {
+            position: absolute;
+            top: 41%;
+            left: 41%;
+          }
+
+          .image_area {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: #333;
+
+            &:hover {
+              background-color: transparent;
+
+              &:before {
+                position: absolute;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                transition: all 0.3s;
+                content: " ";
+              }
+
+              .eye_icon {
+                position: absolute;
+                top: 44%;
+                left: 35%;
+                color: rgba(244, 244, 244, 0.715);
+                font-size: x-large;
+                transition: all 0.3s;
+                z-index: 10000;
+                opacity: 1;
+
+                &:hover {
+                  color: #fff;
+                }
+              }
+
+              .draff_icon {
+                position: absolute;
+                top: 44%;
+                right: 35%;
+                color: rgba(244, 244, 244, 0.715);
+                font-size: x-large;
+                transition: all 0.3s;
+                opacity: 1;
+                z-index: 10000;
+                &:hover {
+                  color: #fff;
+                }
+              }
+
+              .upload-input {
+                &:hover {
+                  .draff_icon {
+                    color: #fff;
+                  }
+                }
+              }
+            }
+
+            .eye_icon {
+              position: absolute;
+              top: 44%;
+              left: 35%;
+              color: rgba(244, 244, 244, 0.715);
+              font-size: x-large;
+              transition: all 0.3s;
+              opacity: 0;
+            }
+
+            .draff_icon {
+              position: absolute;
+              top: 44%;
+              right: 35%;
+              color: rgba(244, 244, 244, 0.715);
+              font-size: x-large;
+              transition: all 0.3s;
+              opacity: 0;
+            }
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+
+            .progress {
+              position: absolute;
+              top: 41%;
+              left: 41%;
+
+              span {
+                display: none;
+              }
+            }
+
+            .sprin_icon {
+              padding: 38px 0;
+              font-size: 50px;
+              color: #1890ff;
+            }
+          }
+
+          .thumbnail-image {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 100%;
+            color: #fff;
+            border: 1px solid #ddd;
+            border-top: 0;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+          }
+        }
+        .btn_upload {
+          position: relative;
+          width: 100%;
+          height: 200px;
+          padding: 40px 0;
+          text-align: center;
+          vertical-align: top;
+          border: 1px dashed #d9d9d9;
+          border-radius: 2px;
+          cursor: pointer;
+          transition: border-color 0.6s;
+
+          &:hover {
+            border-color: #1890ff;
+          }
+
+          .file_upload_input {
+            position: absolute;
+            top: 0;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            outline: none;
+            opacity: 0;
+            cursor: pointer;
+          }
+          .sprin_icon {
+            padding: 38px 0;
+            font-size: 50px;
+            color: #1890ff;
+          }
+
+          .inbox-icon {
+            color: #40a9ff;
+            font-size: 48px;
+          }
+
+          .upload-title {
+            margin: 0 0 4px;
+            color: #000000d9;
+            font-size: 15;
+          }
+          .file-size {
+            padding: 0 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14;
+            color: #ababab;
+          }
+        }
+
+        .utilities {
+          display: flex;
+          justify-content: start;
+          padding: 34px 20px 20px 60px;
+          border: 1px dashed #d9d9d9;
+          cursor: pointer;
+
+          .utility-default {
+            margin: 0 16px 16px 0;
+            border: 1px solid #000;
+            border-radius: 8px;
+          }
+
+          .utility-active {
+            margin: 0 16px 16px 0;
+            border: 1px solid #00bfb9;
+            border-radius: 8px;
+          }
+        }
+      }
+
+      .utilities-valid {
+        margin-top: 8px;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.8509803922);
+      }
+    }
+
+    .error {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+
+      span {
+        font-size: 16px;
+        color: #ff4d4f;
+      }
+    }
+  }
+}

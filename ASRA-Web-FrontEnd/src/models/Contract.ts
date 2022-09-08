@@ -1,0 +1,27 @@
+export interface CreateContractRequestBody {
+    contractCreateDate: Date,
+    contractCreateAddress: string,
+    rentalPrice: number,
+    deposit: number,
+    electronicPrice: number,
+    waterPrice: number,
+    internetPrice: number,
+    paymentType: string,
+    startDate: Date,
+    endDate: Date,
+    tenantName: string,
+    tenantBirthday: Date,
+    tenantPermanentResidence: string,
+    tenantIcNo: string,
+    tenantIcIssueDate: Date,
+    tenantIcIssueLoc: string,
+    tenantPhoneNumber: string,
+    innkeeperResponsibility: string,
+    tenantResponsibility: string,
+    commonResponsibility: string,
+    status: string,
+    contractStatus: true,
+    roomDetailId: number,
+    accountId: number
+  }
+  

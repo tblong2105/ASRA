@@ -1,0 +1,51 @@
+export let manageItems = [
+  {
+    className: "",
+    iconClass: "manage-profile-icon",
+    title: "My Profile",
+    description: "Make changes to your account",
+    tabKey: 1,
+  },
+  {
+    className: "",
+    iconClass: "manage-room-icon",
+    title: "My Rooms",
+    description: "Manage your rooms rented",
+    tabKey: 2,
+  },
+  {
+    className: "",
+    iconClass: "manage-room-icon",
+    title: "My Deposited Rooms",
+    description: "Manage your deposited rooms",
+    tabKey: 3,
+  },
+  {
+    classNames: "",
+    iconClass: "manage-room-icon",
+    title: "My Rooms For Rent",
+    description: "Manage your rooms for rent",
+    tabKey: 4,
+  },
+  {
+    className: "",
+    iconClass: "manage-contract-icon",
+    title: "My Waiting Contract",
+    description: "Manage your waiting contracts",
+    tabKey: 5,
+  },
+  {
+    className: "",
+    iconClass: "manage-key-icon",
+    title: "Change Password",
+    description: "Make change to your password",
+    tabKey: 6,
+  },
+  {
+    className: "",
+    iconClass: "manage-logout-icon",
+    title: "Logout",
+    description: "Futher secure your account for safety",
+    tabKey: 7,
+  },
+];

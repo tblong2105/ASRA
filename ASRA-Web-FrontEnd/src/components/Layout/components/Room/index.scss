@@ -1,0 +1,28 @@
+.room-component{
+    .ant-row{
+        height: 100%;
+    }
+
+    .ant-col-24{
+        display: flex;
+    }
+
+    .ant-col{
+        text-align: initial;
+    }
+
+    
+}
+
+.spin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 67%;
+}
+
+.pagination{
+    display: flex;
+    justify-content: end;
+    margin-top: 32px;
+}

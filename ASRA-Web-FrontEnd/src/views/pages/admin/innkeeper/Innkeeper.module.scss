@@ -1,0 +1,64 @@
+.innkeeper-header {
+  padding: 16px;
+  .title {
+    display: flex;
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+  }
+  .status-search-tool {
+    display: flex;
+    align-items: center;
+  }
+  .keyword-search-tool {
+    display: flex;
+    align-items: center;
+
+    .keyword-search {
+      width: 100%;
+    }
+  }
+}
+
+.innkeeper-request-wrapper {
+  .innkeeper-request-title {
+    font-size: 16px;
+  }
+  .image-identity-card {
+    display: flex;
+    justify-content: space-around;
+
+    .image-border {
+      padding: 8px;
+      border: 1px solid #d9d9d9;
+      border-radius: 2px;
+
+      img {
+        width: 240px;
+        height: 140px;
+        object-fit: cover;
+      }
+    }
+
+    span {
+      display: flex;
+      justify-content: center;
+      padding-top: 4px;
+      font-weight: 700;
+    }
+  }
+
+  .innkeeper-info-detail {
+    padding: 12px 8px;
+    .label-title {
+      label {
+        font-weight: 500;
+      }
+      p {
+        font-size: 13px;
+        padding-left: 1px;
+      }
+    }
+  }
+}

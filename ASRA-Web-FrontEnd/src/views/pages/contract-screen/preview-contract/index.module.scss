@@ -1,0 +1,112 @@
+.contract_screen {
+  .contract_container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contract_box {
+      display: flex;
+      justify-content: flex-start;
+      text-align: start;
+      width: 70%;
+      border-radius: 10px;
+      background-color: #ffffff;
+      padding: 40px;
+
+      .contract_national_name {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .contract_crest {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .contract_title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 40px;
+        text-align: center;
+      }
+
+      .contract_first_text {
+        font-size: 16px;
+        margin-top: 30px;
+      }
+
+      .contract_text {
+        font-size: 16px;
+      }
+
+      .col_left {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        text-align: center;
+      }
+
+      .col_right {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        text-align: center;
+      }
+    }
+  }
+
+  .form_buton {
+    display: flex;
+    align-items: end;
+    padding: 0px 216px;
+    margin-top: 32px;
+
+    .btn_cancel {
+      height: 52px;
+      width: 180px;
+      margin-right: 40px;
+      margin-bottom: 20px;
+      background-color: #bf0000;
+      color: #ffffff;
+
+    }
+
+    .btn_create_contract {
+      height: 52px;
+      width: 180px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.btn-print-section {
+  display: flex;
+  justify-content: right;
+  text-align: end;
+  margin-top: 32px;
+  margin-right: 216px;
+  margin-bottom: 16px;
+}
+
+@page {
+  size: auto;
+  margin-top: -30px;
+  margin-left: -60px;
+  scale: 90%;
+}
+
+.sigPad {
+  width: 100%;
+  height: 100%;
+}
+
+.modalSignBtn {
+  height: 40px;
+  line-height: 1px;
+  margin-left: 8px;
+}

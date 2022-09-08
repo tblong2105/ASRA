@@ -1,0 +1,80 @@
+.about-us-screen {
+  .about-us-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .about-us-box {
+      display: flex;
+      justify-content: flex-start;
+      text-align: start;
+      width: 100%;
+      border-radius: 10px;
+      background-color: #ffffff;
+      padding: 40px;
+
+      .about-us-title {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .about-us-text {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .multi-image {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .member-image {
+          padding: 10px;
+        }
+      }
+
+      .multi-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .member-name {
+          font-size: 20px;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+
+      .multi-id {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .member-id {
+          text-align: center;
+        }
+      }
+
+      .multi-major {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .member-major {
+          text-align: center;
+        }
+      }
+
+      .multi-address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .member-address {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

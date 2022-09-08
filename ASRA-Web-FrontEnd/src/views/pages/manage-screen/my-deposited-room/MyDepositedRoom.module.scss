@@ -1,0 +1,80 @@
+.deposit-room-component {
+    min-height: 190px;
+    max-height: 260px;
+    margin-top: 20px;
+    width: 920px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+        // filter: brightness(110%);
+    }
+
+    .thumbnail-deposit-room-side {
+        padding: 14px;
+
+        .thumbnail-deposit-image {
+            border-radius: 8px;
+            height: 168px;
+            width: 164px;
+            object-fit: cover;
+        }
+    }
+
+    .information-deposit-room-side {
+        margin-top: 4px;
+
+        .deposit-room-address {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            color: #666666;
+            margin-bottom: 0px;
+
+            .status {
+                margin-left: 3px;
+
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .deposit-room-utilities {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2px;
+            margin-top: 4px;
+        }
+
+        .deposit-icon {
+            margin-right: 8px;
+            padding: 3px;
+        }
+    }
+
+    .btn-hide{
+        height: 44px;
+        display: flex;
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+        justify-content: center;
+        line-height: 20px;
+      }
+}
+.pagination-deposited-body {
+    .pagination-deposited {
+        text-align: end;
+    }
+}
+.no-data {
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,52 @@
+.my-profile-screen {
+  margin: 20px 20px;
+  .my-profile-header {
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0px;
+  }
+
+  .my-profile-text {
+    text-align: left;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #666666;
+  }
+
+  .my-profile-title {
+    text-align: left;
+    font-style: normal;
+    //font-weight: 700;
+    font-size: 18px;
+    //line-height: 36px;
+    color: #00bfb9;
+    margin-bottom: 0px;
+  }
+
+  .my-profile-details {
+    font-size: 18px;
+  }
+
+  .edit-button {
+    margin-top: 20px;
+  }
+
+  .my-profile-avatar-title {
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+  }
+
+  .my-profile-avatar-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 150px;
+  }
+}

@@ -1,0 +1,44 @@
+.search-trend-component {
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 32px;
+  padding: 0 32px;
+
+  &:last-child{
+    margin-bottom: 32px;
+  }
+
+  .search-trend-image {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 100%;
+
+    &:hover {
+      // filter: brightness(110%);
+    }
+
+    .overlap {
+      overflow: hidden;
+      background-image: linear-gradient(
+        -180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.9) 100%
+      );
+      border-radius: 8px;
+    }
+  }
+
+  .search-trend-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 8px;
+    letter-spacing: 0;
+  }
+}

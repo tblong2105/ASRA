@@ -1,0 +1,62 @@
+.filter-container{
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+    padding: 12px 32px 0px;
+
+   
+
+    .common-container{
+        padding-top: 16px;
+        padding-bottom: 28px;
+        border-bottom: 1px solid rgba(102, 102, 102, 0.6);
+
+     
+        .common-label{
+            text-align: left;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: #00BFB9;
+        }
+
+        .price-silder{
+           
+        }
+
+        .kind-of-room-choice{
+            text-align: left;
+        }
+
+        .sex-choice{
+            text-align: left;
+        }
+
+        .col-kind-of-room-choice{
+            margin-bottom: 10px;
+        }
+    }
+
+   .button-container{
+       padding-top: 28px;
+       padding-bottom: 28px;
+       display: flex;
+       justify-content: space-around;
+       width: 100%;
+
+       .btn-action{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+       }
+
+       .btn{
+        //    margin: 0 32px;
+       }
+
+       .btn-reset{
+        //    background-color: #BF0000;
+       }
+   }
+}

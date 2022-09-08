@@ -1,0 +1,23 @@
+.room-header {
+  padding: 16px;
+  .title {
+    display: flex;
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+  }
+  .status-search-tool {
+    display: flex;
+    align-items: center;
+  }
+
+  .keyword-search-tool {
+    display: flex;
+    align-items: center;
+
+    .keyword-search {
+      width: 100%;
+    }
+  }
+}

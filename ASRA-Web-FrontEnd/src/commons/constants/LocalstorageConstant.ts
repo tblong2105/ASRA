@@ -1,0 +1,5 @@
+export const LOCALTION = "location"
+export const INNKEEPER_STATUS = "innkeeper_status"
+export const USER_INFOR = "userInfor"
+export const USERNAME = "username"
+export const ROOM_TYPE = "Room_Type"

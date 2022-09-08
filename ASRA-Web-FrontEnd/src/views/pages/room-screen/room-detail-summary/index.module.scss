@@ -1,0 +1,570 @@
+.room-detail-wrapper {
+  margin: 0 30px;
+
+  .images-gallery {
+    margin: 64px 0;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    border: 1px solid #00bfb9;
+    overflow: hidden;
+    cursor: pointer;
+
+    .thumbnail-image {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    .image-detail-border {
+      border-right: 1px solid #ffffff;
+      border-left: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    .image-detail {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+  }
+
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+
+    .title {
+      display: flex;
+      justify-content: start;
+      padding: 0 10px;
+      margin-bottom: 6px;
+      white-space: pre-wrap;
+
+      h1 {
+        margin: 0;
+        text-align: start;
+        color: #000;
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .breadcrumb {
+    padding: 0 10px;
+
+    ol {
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .room-detail-info {
+    width: 100%;
+
+    .room-info-card {
+      padding: 32px;
+      margin-left: 10px;
+      box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+      background-color: #fff;
+      border-radius: 8px;
+
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 50px;
+        border-radius: 24px;
+        background-color: #f6f7f9;
+
+        .home-icon {
+          margin-right: 10px;
+          font-size: 32px;
+          color: #00bfb9;
+        }
+
+        .room-info-text {
+          padding-top: 2px;
+          font-size: 24px;
+          font-weight: 700;
+          color: #000;
+          letter-spacing: 0;
+        }
+      }
+
+      .room-info-description {
+        padding: 0 6px;
+        margin-top: 24px;
+
+        .price,
+        .area,
+        .deposit,
+        .capacity,
+        .address {
+          display: grid;
+          justify-content: start;
+
+          span {
+            margin: 0;
+            text-align: start;
+            font-size: 16px;
+            color: #000;
+            letter-spacing: 0;
+          }
+        }
+
+        .capacity {
+          .renting-status {
+            color: #1edb4c;
+          }
+          .available-status {
+            color: #00bfb9;
+          }
+
+          .unavailable-status {
+            color: #e03c31;
+          }
+        }
+      }
+    }
+
+    .innkeeper-info-card {
+      padding: 32px;
+      margin-left: 32px;
+      box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+      background-color: #fff;
+      border-radius: 8px;
+
+      .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        object-fit: cover;
+        margin-right: 8px;
+      }
+
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 50px;
+        border-radius: 24px;
+        background-color: #f6f7f9;
+
+        .user-icon {
+          margin-left: -20px;
+          margin-right: 10px;
+          font-size: 32px;
+          color: #00bfb9;
+        }
+
+        .innkeeper-info-text {
+          padding-top: 2px;
+          font-size: 24px;
+          font-weight: 700;
+          color: #000;
+          letter-spacing: 0;
+        }
+      }
+
+      .innkeeper-info-description {
+        padding: 0 6px;
+        margin-top: 24px;
+
+        .user-info {
+          display: grid;
+          justify-content: start;
+          margin-top: 6px;
+
+          span {
+            margin: 0;
+            text-align: start;
+            font-size: 16px;
+            color: #000;
+            letter-spacing: 0;
+          }
+        }
+      }
+    }
+
+    .tenants-info-card {
+      padding: 32px;
+      margin-left: 32px;
+      box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+      background-color: #fff;
+      border-radius: 8px;
+
+      .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        object-fit: cover;
+        margin-right: 8px;
+      }
+
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 50px;
+        border-radius: 24px;
+        background-color: #f6f7f9;
+
+        .tenants-icon {
+          margin-left: -12px;
+          margin-right: 10px;
+          font-size: 32px;
+          color: #00bfb9;
+        }
+
+        .tenants-info-text {
+          padding-top: 2px;
+          font-size: 24px;
+          font-weight: 700;
+          color: #000;
+          letter-spacing: 0;
+        }
+      }
+
+      .tenants-info-description {
+        padding: 0 6px;
+        margin-top: 24px;
+      }
+    }
+
+    .utilities-info-card {
+      padding: 32px;
+      margin-left: 10px;
+      margin-top: 32px;
+      box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+      background-color: #fff;
+      border-radius: 8px;
+
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 50px;
+        border-radius: 24px;
+        background-color: #f6f7f9;
+
+        .utility-icon {
+          margin-right: 10px;
+          font-size: 32px;
+          color: #00bfb9;
+        }
+
+        .utilities-info-text {
+          padding-top: 2px;
+          font-size: 24px;
+          font-weight: 700;
+          color: #000;
+          letter-spacing: 0;
+        }
+      }
+    }
+
+    .contract-info-card {
+      padding: 32px;
+      margin-left: 32px;
+      margin-top: 32px;
+      box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+      background-color: #fff;
+      border-radius: 8px;
+
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 50px;
+        border-radius: 24px;
+        background-color: #f6f7f9;
+
+        .contract-icon {
+          margin-left: -4px;
+          margin-right: 10px;
+          font-size: 32px;
+          color: #00bfb9;
+        }
+
+        .contract-info-text {
+          padding-top: 2px;
+          font-size: 24px;
+          font-weight: 700;
+          color: #000;
+          letter-spacing: 0;
+        }
+      }
+
+      .contract-info-description {
+        padding: 0 6px;
+        margin-top: 24px;
+
+        .term,
+        .start-time,
+        .end-time {
+          display: grid;
+          justify-content: start;
+          margin-top: 6px;
+
+          span {
+            margin: 0;
+            text-align: start;
+            font-size: 16px;
+            color: #000;
+            letter-spacing: 0;
+          }
+        }
+
+        .view-contract {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    .detail-description-info-card {
+      padding: 32px;
+      margin-left: 10px;
+      margin-top: 32px;
+      box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+      background-color: #fff;
+      border-radius: 8px;
+      word-wrap: break-word;
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 50px;
+        border-radius: 24px;
+        background-color: #f6f7f9;
+
+        .description-icon {
+          margin-right: 10px;
+          font-size: 32px;
+          color: #00bfb9;
+        }
+
+        .detail-description-info-text {
+          padding-top: 2px;
+          font-size: 24px;
+          font-weight: 700;
+          color: #000;
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+  .action {
+    .payment-time {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      padding-right: 12px;
+      padding-top: 2.4px;
+
+      .show-counter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000;
+
+        .countdown {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          line-height: 16px;
+          padding: 0 8px;
+          p {
+            margin: 0;
+          }
+          span {
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 28px;
+          }
+        }
+        .countdown-danger {
+          color: #ff0000;
+          line-height: 16px;
+          padding: 0 8px;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+
+          p {
+            margin: 0;
+          }
+          span {
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 28px;
+          }
+        }
+      }
+
+      .room-no-label {
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+
+    .btn-payment {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .deposit-request {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+    margin-left: 44px;
+
+    .text {
+      font-size: 20px;
+      color: #000;
+      cursor: pointer;
+
+      &:hover {
+        color: rgba(0, 0, 0, 0.8);
+      }
+
+      .deposit-number-request {
+        color: #ff0000;
+
+        &:hover {
+          color: rgba(255, 0, 0, 0.8);
+        }
+      }
+    }
+  }
+
+  .btn-deposit,
+  .edit-room {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .tenant-info-card {
+    padding: 32px;
+    margin: 0 0 32px 13px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 10%);
+    background-color: #fff;
+
+    .title {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding: 0;
+      height: 50px;
+      border-radius: 24px;
+      background-color: #f6f7f9;
+
+      .tenant-icon {
+        margin-right: 10px;
+        margin-left: 16px;
+        font-size: 32px;
+        color: #00bfb9;
+      }
+
+      .tenant-info-text {
+        padding-top: 2px;
+        font-size: 24px;
+        font-weight: 700;
+        color: #000;
+        letter-spacing: 0;
+      }
+    }
+
+    .tenant-info-description {
+      margin-top: 24px;
+      padding: 0 6px;
+    }
+
+    .deposit-status {
+      display: flex;
+      justify-content: start;
+      padding: 0 4px;
+    }
+  }
+
+  .summary-tab {
+    margin: 32px 0;
+
+    .deposit-request-count {
+      color: #ec4034;
+    }
+  }
+
+  .contract-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #00bfb9;
+  }
+
+  .room-available-alert {
+    display: flex;
+    margin-top: 16px;
+    padding-right: 10px;
+    justify-content: end;
+
+    span {
+      color: #1890ff;
+      cursor: pointer;
+      font-size: 16px;
+
+      &:hover {
+        color: #40a9ff;
+      }
+    }
+  }
+}
+
+.chart-container {
+  background-color: #fff;
+  padding-top: 16px;
+  padding-bottom: 60px;
+}
+
+.unit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+.bill-icon {
+  font-size: 28px;
+  color: #00bfb9;
+}
+
+.form_data {
+  .col_left {
+    margin-right: 10px;
+  }
+
+  .col_right {
+    margin-left: 10px;
+  }
+}

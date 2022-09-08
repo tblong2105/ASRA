@@ -1,0 +1,69 @@
+.contract-wrapper {
+  .information-row {
+    padding: 0 40px;
+
+    .ant-col-16 {
+      max-width: 100%;
+    }
+  }
+
+  .input-number {
+    width: 100%;
+    height: 40px;
+    line-height: 38px;
+    border-radius: 6px;
+
+    &:hover,
+    &:active,
+    &:focus,
+    &:focus-visible,
+    &:focus-within,
+    &:target {
+      border: 1px solid #00bfb9;
+      color: #000000;
+    }
+  }
+
+  .ant-select-selector {
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .ant-picker {
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .room-des-label {
+    margin: 8px 0 0 7px;
+
+    .ant-form-item-label::after {
+      content: "";
+    }
+  }
+
+  .ant-upload-list-item-actions {
+    button {
+      background: none !important;
+    }
+
+    .anticon-eye {
+      padding-top: 3px;
+    }
+  }
+
+  .ant-steps-item-container {
+    cursor: pointer;
+  }
+
+  .ant-select-dropdown-empty {
+    display: none;
+  }
+  .room_names {
+    .ant-select-selection-placeholder {
+      display: flex;
+    }
+  }
+}

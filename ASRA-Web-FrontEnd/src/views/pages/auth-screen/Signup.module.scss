@@ -1,0 +1,53 @@
+.content {
+    height: 100vh;
+    min-height: 800px;
+
+    .left_side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+    }
+
+    .right_side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .form_data {
+            padding: 0 120px 0;
+            width: 100%;
+
+            .form_item {
+                margin-bottom: 16px;
+
+                .input_field {
+                    height: 42px;
+                    font-size: 14px;
+                    width: 104%;
+                }
+                .input_field_password {
+                    height: 42px;
+                    font-size: 14px;
+                    width: 105%;
+                }
+            }
+
+            .btn_register {
+                margin-top: 14px;
+                width: 27.6rem;
+                height: 52px;
+            }
+
+            .txt_already_registered {
+                margin-top: 18px;
+                margin-left: 12px;
+
+                a {
+                    font-weight: bold;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
